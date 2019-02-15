@@ -1,0 +1,11 @@
+name: misc_nbs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - six
+  - jupyter
+  - pip
+  - pip:
+    - matplotlib==3.0.2
+    - numpy==1.14.0
